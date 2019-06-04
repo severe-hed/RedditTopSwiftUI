@@ -26,7 +26,7 @@ struct MainView : View {
                         }
                 }
             }
-        }
+            }
             .navigationBarItem(title: Text("Reddit Top"))
             .navigationBarItems(trailing: Button(action: {
                 self.userData.presenter.reload()
